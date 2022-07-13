@@ -1,5 +1,6 @@
 const listOfobjects = {
     MATH: MATH,
+    WORD: WORD,
 };
 
 
@@ -65,6 +66,7 @@ function renderMethodSelector(){
 };
 
 
+
 function renderSelectorForm(){
     renderObjectSelector();
 
@@ -75,7 +77,6 @@ function renderSelectorForm(){
         }
     }, false);
 
-    console.log(form);
 }
 
 
