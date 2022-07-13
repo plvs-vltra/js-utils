@@ -1,4 +1,6 @@
 MATH = {
+    name: "MATH",
+    
     /**
      * Returns array of numbers 
      * @param {Number} from 
