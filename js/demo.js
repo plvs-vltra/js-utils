@@ -7,8 +7,8 @@ const listOfobjects = {
 
 let form = {
     html: document.querySelector("#form"),
-    objectSelector: document.querySelector("#form-objectSelector"),
-    methodSelector: document.querySelector("#form-methodSelector"),
+    objectSelector: document.querySelector("#header__objectSelector"),
+    methodSelector: document.querySelector("#header__methodSelector"),
 
 
 
