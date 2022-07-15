@@ -8,3 +8,149 @@ body {
     background: rgba(0, 0, 0, 0.9);
     color: white;
 }
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#form {
+    width: 420px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #4a4a4a;
+    color: white;
+}
+
+#form h2 {
+    margin-bottom: 10px;
+}
+
+
+#form select {
+    padding: 3px 10px;
+    border: 1px solid #4a4a4a;
+    background: #191919;
+    color: white;
+}
+
+#form select,
+#form button {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#form button {
+    padding: 4px 10px;
+    background-color: #00a5ffc7;
+    border: 1px solid #2887ba;
+}
+
+#form button:hover {
+    opacity: 0.5;
+}
+
+
+#form button:active {
+    opacity: 1;
+}
+
+#form-static-content,
+#form-dynamic-content {
+    padding: 10px;
+}* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#form {
+    width: 420px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #4a4a4a;
+    color: white;
+}
+
+#form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+#form select {
+    padding: 3px 10px;
+    border: 1px solid #4a4a4a;
+    background: #191919;
+    color: white;
+    left: 35px;
+    position: relative;
+}
+
+#form select,
+#form button {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#form button {
+    padding: 4px 10px;
+    background-color: #00a5ffc7;
+    border: 1px solid #2887ba;
+}
+
+#form button:hover {
+    opacity: 0.5;
+}
+
+
+#form button:active {
+    opacity: 1;
+}
+
+#form-static-content,
+#form-dynamic-content {
+    padding: 10px;
+}
+
+#form-static-content {
+    background: #282828;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+
+#form-dynamic-content {
+    background-color: #191919;
+    min-height: 50px;
+}
+
+#form-static-content {
+    background: #282828;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+
+#form-dynamic-content {
+    background-color: #191919;
+    min-height: 50px;
+}
